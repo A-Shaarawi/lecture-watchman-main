@@ -13,7 +13,7 @@ interface Student {
   studentId: string;
   name: string;
   group: string;
-  status: "Present" | "Absents";
+  status: "Present" | "Absent";
 }
 
 interface CourseStudentsProps {

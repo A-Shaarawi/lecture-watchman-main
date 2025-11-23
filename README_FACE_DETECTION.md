@@ -137,3 +137,4 @@ npm run dev
 - **Image Processing**: OpenCV for image manipulation
 - **API Framework**: Flask with CORS support
 
+

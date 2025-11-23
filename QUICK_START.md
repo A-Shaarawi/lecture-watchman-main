@@ -82,3 +82,4 @@ Once both servers are running:
 - **Flask Backend:** Press `Ctrl+C` in the terminal running `app.py`
 - **React Frontend:** Press `Ctrl+C` in the terminal running `npm run dev`
 
+

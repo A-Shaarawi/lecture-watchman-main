@@ -62,3 +62,4 @@ To enable face recognition (matching registered faces):
 
 Once you see "Running on http://0.0.0.0:5000", you're good to go! 🎉
 
+

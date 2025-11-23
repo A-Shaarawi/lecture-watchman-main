@@ -72,3 +72,4 @@ Once the server is running:
 - ✅ You can register faces
 - ✅ Face detection works during attendance
 
+

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/ui-core";
 import { LogOut, GraduationCap } from "lucide-react";
 
 interface NavbarProps {

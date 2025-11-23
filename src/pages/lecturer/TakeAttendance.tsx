@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { ArrowLeft, Camera as CameraIcon, Check } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Button, Card, CardContent, Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/ui-core";
 import CameraView from "@/components/CameraView";
 
 interface TakeAttendanceProps {

@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { BookOpen, Users, Camera, BarChart, Menu, LogOut } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/ui-core";
 
 interface LecturerLayoutProps {
   children: ReactNode;

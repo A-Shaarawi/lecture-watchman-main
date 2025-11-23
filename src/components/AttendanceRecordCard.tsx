@@ -1,10 +1,8 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle, Button, Badge } from "@/components/ui/ui-core";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/ui-extended";
 import { AttendanceRecord } from "@/types/lecturer";
 import { Camera, CameraOff, Calendar, Users, UserX, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 
 interface AttendanceRecordCardProps {
   record: AttendanceRecord;

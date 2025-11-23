@@ -1,8 +1,5 @@
 import { useState } from "react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle, Input, Label, Button } from "@/components/ui/ui-core";
 import { toast } from "sonner";
 import CameraView from "@/components/CameraView";
 

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import { Button, Card } from "@/components/ui/ui-core";
 import { ArrowLeft, Camera, CheckCircle2, Users } from "lucide-react";
 import { DetectedStudent, mockEnrolledStudents } from "@/types/lecturer";
 

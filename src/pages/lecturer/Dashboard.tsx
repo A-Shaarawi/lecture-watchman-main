@@ -1,5 +1,5 @@
 import { BookOpen, Users, Camera } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/ui-core";
 
 interface DashboardProps {
   onNavigate: (page: "courses" | "students" | "stats") => void;

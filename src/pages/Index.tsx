@@ -5,7 +5,7 @@ import StudentRegister from "./StudentRegister";
 import StudentDashboard from "./StudentDashboard";
 import AttendanceScanner from "@/components/AttendanceScanner";
 import { Lecturer } from "@/types/lecturer";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/ui-core";
 import { GraduationCap, UserCircle, BookOpen } from "lucide-react";
 
 type AppState = 

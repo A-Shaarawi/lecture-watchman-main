@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button, Card, CardContent } from "@/components/ui/ui-core";
 import { Camera, X } from "lucide-react";
 
 interface CameraViewProps {

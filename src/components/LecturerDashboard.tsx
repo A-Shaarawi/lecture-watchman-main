@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/ui-core";
 import { Lecturer, AttendanceRecord, mockEnrolledStudents } from "@/types/lecturer";
 import { LogOut, BookOpen, TrendingUp, UserCheck, CalendarDays } from "lucide-react";
 import AttendanceRecordCard from "./AttendanceRecordCard";

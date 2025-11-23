@@ -5,8 +5,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
-import { Badge } from "@/components/ui/badge";
+  Badge,
+} from "@/components/ui/ui-core";
 import { format } from "date-fns";
 
 interface AttendanceRecord {

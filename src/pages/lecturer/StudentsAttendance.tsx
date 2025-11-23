@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { ArrowLeft, Users as UsersIcon, Check, X, Calendar } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { Badge } from "@/components/ui/badge";
+import { Button, Card, CardContent, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Table, TableBody, TableCell, TableHead, TableHeader, TableRow, Badge } from "@/components/ui/ui-core";
 
 interface StudentsAttendanceProps {
   onBack: () => void;

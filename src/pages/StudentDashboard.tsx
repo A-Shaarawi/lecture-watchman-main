@@ -1,6 +1,4 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle, Badge, Avatar, AvatarFallback } from "@/components/ui/ui-core";
 import Navbar from "@/components/Navbar";
 import AttendanceTable from "@/components/AttendanceTable";
 import { Calendar, CheckCircle2, XCircle, User, GraduationCap } from "lucide-react";

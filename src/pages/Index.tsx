@@ -98,7 +98,7 @@ const Index = () => {
               <GraduationCap className="h-20 w-20 text-primary" />
             </div>
             <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              FaceTrack
+              Lecture Watchman
             </h1>
             <p className="text-xl text-muted-foreground">Smart Attendance System</p>
           </div>

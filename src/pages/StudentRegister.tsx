@@ -121,6 +121,8 @@ export default function StudentRegister({ onRegister, onBack }: StudentRegisterP
                       <CameraView
                         onCapture={handleFaceCapture}
                         onClose={() => setShowCamera(false)}
+                        studentId={studentId}
+                        studentName={name}
                       />
                     )}
                     {faceRegistered && (

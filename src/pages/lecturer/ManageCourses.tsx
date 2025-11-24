@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BookOpen, ArrowLeft, Plus } from "lucide-react";
+import { BookOpen, ArrowLeft, Plus, Trash } from "lucide-react";
 import { Button, Card, CardContent, Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, Input, Label } from "@/components/ui/ui-core";
 import { toast } from "sonner";
 
@@ -43,6 +43,11 @@ export default function ManageCourses({ onBack, onSelectCourse }: ManageCoursesP
     setCourseName("");
     setCourseId("");
     setOpen(false);
+  };
+
+  const handleDeleteCourse = (id: string) => {
+    setCourses(courses.filter(course => course.id !== id));
+    toast.success("Course deleted successfully");
   };
 
   return (
@@ -111,7 +116,7 @@ export default function ManageCourses({ onBack, onSelectCourse }: ManageCoursesP
           {courses.map((course) => (
             <Card
               key={course.id}
-              className="cursor-pointer hover:shadow-lg transition-shadow"
+              className="cursor-pointer hover:shadow-lg transition-shadow relative"
               onClick={() => onSelectCourse(course)}
             >
               <CardContent className="p-6">
@@ -124,6 +129,16 @@ export default function ManageCourses({ onBack, onSelectCourse }: ManageCoursesP
                       {course.courseId}
                     </span>
                   </div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleDeleteCourse(course.id);
+                    }}
+                    className="absolute top-2 right-2 text-destructive hover:text-destructive-foreground"
+                    aria-label={`Delete course ${course.name}`}
+                  >
+                    <Trash className="w-5 h-5" />
+                  </button>
                 </div>
                 <h3 className="font-semibold text-lg">{course.name}</h3>
               </CardContent>

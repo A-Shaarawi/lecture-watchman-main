@@ -73,3 +73,6 @@ Once the server is running:
 - ✅ Face detection works during attendance
 
 
+
+
+
